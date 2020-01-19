@@ -1,0 +1,43 @@
+package listPush;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.concurrent.ExecutionException;
+
+public class Controlador implements ActionListener/*,PropertyChangeListener*/{
+	private Panel panel;
+	public Controlador(Panel panel) {
+		this.panel = panel;
+	}
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		if (e.getActionCommand().equals("LISTA")){
+			try{
+				int num=panel.numero();
+				panel.limpiarAreas();
+				WorkerGenerator worker = new WorkerGenerator(panel, num);
+				worker.execute();
+				try {
+					WorkerSubList worsub0 = new WorkerSubList(panel,worker.obtain(),0);
+					worsub0.execute();
+					WorkerSubList worsub1=new WorkerSubList(panel,worker.obtain(),1);
+					worsub1.execute();
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				
+			}catch(NumberFormatException ie){
+				panel.mensaje("Error: no es un numero");
+			}
+		}
+	}
+	/*@Override
+	public void propertyChange(PropertyChangeEvent evt) {
+		if (evt.getPropertyName().equals("progress")){
+			panel.progreso((Integer)evt.getNewValue());
+		}
+		
+	}*/
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;prSensores/src/SensorMon&apos;&#x0D;&#x0A;- Original project: &apos;prSensores&apos;&#x0D;&#x0A;- Destination element: &apos;prSensores/src/SensorMon&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Sensores.Sensor.java&#x0D;&#x0A;     Sensores.Worker.java&#x0D;&#x0A;     Sensores.Mediciones.java" description="Copy compilation units" destination="/src&lt;SensorMon" element1="/src&lt;Sensores{Sensor.java" element2="/src&lt;Sensores{Worker.java" element3="/src&lt;Sensores{Mediciones.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1495110126843" units="3" version="1.0"/>
+</session>

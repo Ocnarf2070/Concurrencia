@@ -1,0 +1,19 @@
+23:25:56 **** Rebuild of configuration Debug for project ArbolBinario ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practica2B.o "..\\Practica2B.c" 
+..\Practica2B.c: In function 'creafichero':
+..\Practica2B.c:28:2: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat]
+..\Practica2B.c:35:10: warning: initialization makes integer from pointer without a cast [enabled by default]
+..\Practica2B.c: In function 'main':
+..\Practica2B.c:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o arbolbb.o "..\\arbolbb.c" 
+..\arbolbb.c:7:21: warning: extra tokens at end of #include directive [enabled by default]
+..\arbolbb.c: In function 'Destruir':
+..\arbolbb.c:18:3: warning: passing argument 1 of 'Destruir' from incompatible pointer type [enabled by default]
+..\arbolbb.c:16:6: note: expected 'struct T_Nodo **' but argument is of type 'T_Arbol'
+..\arbolbb.c:19:3: warning: passing argument 1 of 'Destruir' from incompatible pointer type [enabled by default]
+..\arbolbb.c:16:6: note: expected 'struct T_Nodo **' but argument is of type 'T_Arbol'
+gcc -o ArbolBinario.exe Practica2B.o arbolbb.o 
+
+23:25:57 Build Finished (took 769ms)
+

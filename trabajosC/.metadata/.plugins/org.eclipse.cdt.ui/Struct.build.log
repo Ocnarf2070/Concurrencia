@@ -1,0 +1,17 @@
+13:38:05 **** Rebuild of configuration Debug for project Struct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o estructura.o "..\\estructura.c" 
+..\estructura.c: In function 'main':
+..\estructura.c:41:2: warning: implicit declaration of function 'leerArrayComplejo' [-Wimplicit-function-declaration]
+..\estructura.c:42:2: warning: implicit declaration of function 'imprimirArrayComplejo' [-Wimplicit-function-declaration]
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o complejos.o "..\\complejos.c" 
+..\complejos.c: In function 'leerArComplejos':
+..\complejos.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+gcc -o Struct.exe complejos.o estructura.o 
+estructura.o: In function `main':
+C:\Users\franc\Desktop\Curso2016-17\Concurrencia\trabajosC\Struct\Debug/../estructura.c:41: undefined reference to `leerArrayComplejo'
+C:\Users\franc\Desktop\Curso2016-17\Concurrencia\trabajosC\Struct\Debug/../estructura.c:42: undefined reference to `imprimirArrayComplejo'
+collect2: ld returned 1 exit status
+
+13:38:05 Build Finished (took 447ms)
+

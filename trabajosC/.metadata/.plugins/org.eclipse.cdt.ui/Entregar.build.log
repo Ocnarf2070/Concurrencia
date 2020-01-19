@@ -1,0 +1,12 @@
+18:47:12 **** Rebuild of configuration Debug for project Entregar ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Principal.o "..\\Principal.c" 
+..\Principal.c: In function 'main':
+..\Principal.c:64:1: warning: control reaches end of non-void function [-Wreturn-type]
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o personas.o "..\\personas.c" 
+..\personas.c: In function 'leerArComplejos':
+..\personas.c:30:2: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+gcc -o Entregar.exe Principal.o personas.o 
+
+18:47:13 Build Finished (took 1s.366ms)
+

@@ -1,0 +1,16 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Principal (11),org.eclipse.launchbar.core.descriptorType.default\:Principal (9),org.eclipse.launchbar.core.descriptorType.default\:Principal (4),org.eclipse.launchbar.core.descriptorType.default\:Principal,org.eclipse.launchbar.core.descriptorType.default\:Principal (1),org.eclipse.launchbar.core.descriptorType.default\:Principal (2),org.eclipse.launchbar.core.descriptorType.default\:Principal (3),org.eclipse.launchbar.core.descriptorType.default\:PrincipalMon,org.eclipse.launchbar.core.descriptorType.default\:Principal (5),org.eclipse.launchbar.core.descriptorType.default\:Principal (7),org.eclipse.launchbar.core.descriptorType.default\:Principal (8),org.eclipse.launchbar.core.descriptorType.default\:Principal (10),org.eclipse.launchbar.core.descriptorType.default\:Principal2,org.eclipse.launchbar.core.descriptorType.default\:Planta,org.eclipse.launchbar.core.descriptorType.default\:Tienda,org.eclipse.launchbar.core.descriptorType.default\:Principal (12),org.eclipse.launchbar.core.descriptorType.default\:Principal (13),org.eclipse.launchbar.core.descriptorType.default\:Principal (16),org.eclipse.launchbar.core.descriptorType.default\:Principal (17),org.eclipse.launchbar.core.descriptorType.default\:Principal (6),org.eclipse.launchbar.core.descriptorType.default\:PrincipalCallable,org.eclipse.launchbar.core.descriptorType.default\:proinci\u00E0l,org.eclipse.launchbar.core.descriptorType.default\:Principal (18),org.eclipse.launchbar.core.descriptorType.default\:Principal (15),org.eclipse.launchbar.core.descriptorType.default\:Principal (14),org.eclipse.launchbar.core.descriptorType.default\:Principal (19)
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Planta/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Planta/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Principal\ (1)/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Principal\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Principal\ (10)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Principal\ (15)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Principal\ (19)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Principal\ (2)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Principal/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Principal/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:PrincipalCallable/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Tienda/activeLaunchMode=run

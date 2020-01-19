@@ -1,0 +1,53 @@
+package prFuture;
+
+import javax.swing.JPanel;
+
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.*;
+
+public class example extends JPanel {
+	private JLabel longLista=new JLabel("Longitud de la lista original?");
+	private JTextField nLista=new JTextField(10);
+	private JTextArea areaList=new JTextArea(10, 40);
+	private JScrollPane scroll = new JScrollPane(areaList);
+	private JLabel list=new JLabel("Lista original");
+	private JTextArea area0=new JTextArea(10, 19);
+	private JScrollPane scroll2 = new JScrollPane(area0);
+	private JTextArea area1=new JTextArea(10, 19);
+	private JScrollPane scroll3 = new JScrollPane(area1);
+	private JLabel text1=new JLabel("Lista de elementos <0.5");
+	private JLabel text2=new JLabel("Lista de elementos >=0.5");
+	
+	public example(){
+		this.setLayout(new BorderLayout());
+		JPanel paneln=new JPanel();
+		
+		paneln.add(longLista);
+		paneln.add(nLista);
+		
+		this.add(paneln,BorderLayout.NORTH);
+		JPanel panelc=new JPanel();
+		panelc.setLayout(new BorderLayout());
+		
+		panelc.add(scroll,BorderLayout.NORTH);
+		panelc.add(list,BorderLayout.SOUTH);
+		
+		this.add(panelc,BorderLayout.CENTER);
+		
+		JPanel panels=new JPanel();
+		JPanel panels1=new JPanel();
+		JPanel panels2=new JPanel();
+		panels.setLayout(new BorderLayout());
+		panels1.setLayout(new BorderLayout());
+		panels2.setLayout(new BorderLayout());
+		panels1.add(scroll2,BorderLayout.NORTH);
+		panels1.add(text1,BorderLayout.SOUTH);
+		panels2.add(scroll3,BorderLayout.NORTH);
+		panels2.add(text2,BorderLayout.SOUTH);
+		panels.add(panels1,BorderLayout.WEST);
+		panels.add(panels2,BorderLayout.EAST);
+		this.add(panels,BorderLayout.SOUTH);
+	}
+}
+

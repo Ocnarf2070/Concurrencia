@@ -1,0 +1,31 @@
+package list;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ExecutionException;
+
+import javax.swing.SwingWorker;
+public class WorkerGenerator extends SwingWorker<List<Double>, Void> {
+	private Panel panel;
+	private int n;
+	public WorkerGenerator(Panel panel,int n){
+		this.panel=panel;
+		this.n=n;
+	}
+	@Override
+	protected List<Double> doInBackground() throws Exception {
+		// TODO Auto-generated method stub
+		List<Double> lista=new ArrayList<>();
+		for(int i=0;i<n;i++)lista.add(Math.random());
+		return lista;
+	}
+	public void done(){
+		try {
+			panel.listaNumero(get(),"areaLista");
+		} catch (InterruptedException | ExecutionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+13:43:24 **** Incremental Build of configuration Debug for project k ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o k.o "..\\k.c" 
+..\k.c: In function 'main':
+..\k.c:23:3: warning: assignment from incompatible pointer type [enabled by default]
+..\k.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+..\k.c: In function 'main2':
+..\k.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+gcc -o k.exe k.o 
+Info: Nothing to build for k
+Info: Nothing to build for k

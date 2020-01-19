@@ -1,0 +1,20 @@
+21:55:17 **** Rebuild of configuration Debug for project Listas_Enlazadas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o listas.o "..\\listas.c" 
+..\listas.c: In function 'insertarCabeza':
+..\listas.c:17:2: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+..\listas.c:17:12: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+..\listas.c: In function 'eliminarCabeza':
+..\listas.c:30:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+..\listas.c:30:3: warning: incompatible implicit declaration of built-in function 'free' [enabled by default]
+..\listas.c: In function 'insertarOrdenado':
+..\listas.c:48:12: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:7:20: warning: extra tokens at end of #include directive [enabled by default]
+..\main.c:8:19: warning: extra tokens at end of #include directive [enabled by default]
+..\main.c: In function 'main':
+..\main.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+gcc -o Listas_Enlazadas.exe listas.o main.o 
+
+21:55:17 Build Finished (took 419ms)
+

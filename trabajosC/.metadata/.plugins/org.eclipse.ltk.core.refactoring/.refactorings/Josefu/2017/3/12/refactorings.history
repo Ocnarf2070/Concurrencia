@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Josefu/ListaCircular(1).h&apos; to &apos;ListaCircular.h&apos;" description="Rename resource &apos;ListaCircular(1).h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ListaCircular(1).h" name="ListaCircular.h" stamp="1490028568343" updateReferences="true"/>
+</session>

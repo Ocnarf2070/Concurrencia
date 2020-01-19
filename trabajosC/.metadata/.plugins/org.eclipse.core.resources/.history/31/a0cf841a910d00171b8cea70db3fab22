@@ -1,0 +1,59 @@
+/*
+ * Principal.c
+ *
+ *  Created on: 12/4/2016
+ *      Author: mmar
+ */
+
+#include "ListaCircular.h"
+#include <stdio.h>
+
+
+// Lee el fichero y lo introduce en la lista
+void cargarFichero (const char *nombreFich, TListaCircular *lc){
+	// REALIZAR ESTE PROCEDIMIENTO
+
+}
+
+
+int main(){
+	setvbuf(stdout, NULL, _IONBF,0);
+	setvbuf(stderr, NULL, _IONBF,0);
+	int k;
+	TListaCircular lc;
+	crear(&lc);
+	printf("k");
+	char nombre[30]="Pepe";
+	insertar(&lc,nombre);
+	printf("k");
+	nombre="Jose";
+	insertar(&lc,nombre);
+	printf("k");
+	insertar(&lc,"Paco");
+	printf("k");
+	while(1){
+		printf("%s\n",lc->nombre);
+		scanf("%d",&k);
+	}
+	/*char nombre[30];
+
+	int n;
+
+	cargarFichero ("listaNombres.txt",&lc);
+	recorrer(lc);
+	printf("Introduce un número entre 0 y 60: ");
+	fflush(stdout);
+	scanf("%d",&n);
+	while (longitud(lc)>1){
+		mover(&lc,n);
+		extraer(&lc,nombre);
+		printf("%s ha salido del círculo \n",nombre);
+	}
+
+	extraer(&lc,nombre);
+	printf("--------------------------------------\n");
+	printf("%s ha sido seleccionado !!!!! \n",nombre);
+	fflush(stdout);
+*/
+	return 0;
+}

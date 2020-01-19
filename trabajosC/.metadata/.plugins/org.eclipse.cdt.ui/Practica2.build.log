@@ -1,0 +1,7 @@
+16:51:55 **** Incremental Build of configuration Debug for project Practica2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Principal.o "..\\Principal.c" 
+gcc -o Practica2.exe Cola.o Principal.o 
+
+16:52:08 Build Finished (took 12s.567ms)
+

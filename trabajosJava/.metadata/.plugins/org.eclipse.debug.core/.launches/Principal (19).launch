@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/prList/src/listPushandprogress2/Principal.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="D:\Desktop\Curso2016-17\Concurrencia\trabajosJava\prList\Salida.txt"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="listPushandprogress2.Principal"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="prList"/>
+</launchConfiguration>

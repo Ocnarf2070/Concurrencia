@@ -1,0 +1,14 @@
+12:08:06 **** Rebuild of configuration Debug for project prPracticas1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o practica1.o "..\\practica1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o gestion_memoria.o "..\\gestion_memoria.c" 
+..\gestion_memoria.c: In function 'devolver':
+..\gestion_memoria.c:94:3: warning: implicit declaration of function 'compactar' [-Wimplicit-function-declaration]
+..\gestion_memoria.c: At top level:
+..\gestion_memoria.c:96:7: warning: conflicting types for 'compactar' [enabled by default]
+..\gestion_memoria.c:94:3: note: previous implicit declaration of 'compactar' was here
+gcc -o prPracticas1.exe gestion_memoria.o main.o practica1.o 
+
+12:08:07 Build Finished (took 561ms)
+

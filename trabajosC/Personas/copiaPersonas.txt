@@ -1,0 +1,4 @@
+Nombre: Pepe, Apellido: Gómez, Edad: 33 
+Nombre: Javier, Apellido: Manzano, Edad: 12 
+Nombre: Rosa, Apellido: Aguilera, Edad: 23 
+Nombre: Juan, Apellido: Ortiz, Edad: 80 

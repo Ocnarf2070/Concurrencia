@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;prFicherosIO/FicherosIO&apos; to &apos;FicherosIO.C&apos;" description="Rename resource &apos;FicherosIO&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="FicherosIO" name="FicherosIO.C" stamp="1489572028024" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;prFicherosIO/FicherosIO.C&apos; to &apos;FicherosIO.c&apos;" description="Rename resource &apos;FicherosIO.C&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="FicherosIO.C" name="FicherosIO.c" stamp="1489572036883" updateReferences="true"/>
+</session>
